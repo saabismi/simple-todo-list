@@ -21,14 +21,44 @@ section {
     background-color: #a7d8dc;
     padding:30px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 #inputField {
-    width:80%;
+    width:60%;
     font-size: 14pt;
     padding:10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
+    border-radius: 5px;
+    border: 2px solid #4f4242;
+    transition: 0.15s ease;
+}
+
+#inputDate {
+    width:20%;
+    font-size: 14pt;
+    padding:10px;
+    cursor: text;
+    border-radius: 5px;
+    border: 2px solid #4f4242;
+    transition: 0.15s ease;
+}
+
+#saveTodo {
+    width:10%;
+    font-size: 14pt;
+    padding:10px;
+    margin:0;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 2px solid #4f4242;
+    transition: 0.15s ease;
+}
+
+#saveTodo:hover, #inputDate:hover, #inputField:hover, #inputField:focus {
+    background-color: #e6e6e6;
 }
 
 #objectives {
